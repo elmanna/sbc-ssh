@@ -4,7 +4,7 @@
 
 1. ips txt file: should contain all of the ip's of the ssh hosting servers
 that the commands in the commands file will be executed on,
-each ip address should be placed in single line by its own
+each ip address should be placed line by line
 
 ->> example src/ip.txt
 
@@ -14,7 +14,7 @@ that will be sent to the os hosting the ssh server
 ->> example src/commands.txt
 
 3. credentials txt file: contains the ssh server hosting machine usernames & passwords
-seprated by a comma ',' each credentials should be in a single line
+seprated by a comma ',' each credentials should be in a separate line
 
 ->> example src/credentials.txt
 
@@ -22,5 +22,5 @@ seprated by a comma ',' each credentials should be in a single line
 
 #>>>>> 
 files doesn't need to be only in the src folder
-clould be any where in the file system just a full path should be applied (of-course)
+could  be any where in the file system just provide a full path to the file
  <<<<<<#
